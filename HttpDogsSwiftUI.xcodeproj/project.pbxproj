@@ -8,17 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		33A2A2DC295ECA7E00837802 /* HttpDogsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A2DB295ECA7E00837802 /* HttpDogsSwiftUIApp.swift */; };
-		33A2A2DE295ECA7E00837802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A2DD295ECA7E00837802 /* ContentView.swift */; };
 		33A2A2E0295ECA7F00837802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A2A2DF295ECA7F00837802 /* Assets.xcassets */; };
 		33A2A2E3295ECA7F00837802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A2A2E2295ECA7F00837802 /* Preview Assets.xcassets */; };
+		33A2A2F5295ED1F000837802 /* DogCardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A2F4295ED1F000837802 /* DogCardWidget.swift */; };
+		33A2A2F7295ED1FF00837802 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A2F6295ED1FF00837802 /* NetworkService.swift */; };
+		33A2A2FE295ED23C00837802 /* DogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A2FD295ED23C00837802 /* DogService.swift */; };
+		33A2A300295ED24800837802 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A2FF295ED24800837802 /* Dog.swift */; };
+		33A2A302295ED25300837802 /* DogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A301295ED25300837802 /* DogsViewModel.swift */; };
+		33A2A304295ED26800837802 /* DogsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A303295ED26800837802 /* DogsDetailView.swift */; };
+		33A2A306295ED27000837802 /* DogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A305295ED27000837802 /* DogsView.swift */; };
+		33A2A309295ED70300837802 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 33A2A308295ED70300837802 /* Alamofire */; };
+		33A2A30C295ED74800837802 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 33A2A30B295ED74800837802 /* Kingfisher */; };
+		33A2A30E295F055000837802 /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A30D295F054F00837802 /* NetworkPath.swift */; };
+		33A2A310295F059400837802 /* NetworkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A30F295F059400837802 /* NetworkMethod.swift */; };
+		33A2A312295F062E00837802 /* ProjectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A311295F062E00837802 /* ProjectError.swift */; };
+		33A2A314295F077A00837802 /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A313295F077A00837802 /* ErrorMessages.swift */; };
+		33A2A316295F07AB00837802 /* NetworkQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A315295F07AB00837802 /* NetworkQuery.swift */; };
+		33A2A31A295F0AEA00837802 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A319295F0AEA00837802 /* NetworkConfig.swift */; };
+		33A2A31C295F0B0400837802 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A31B295F0B0400837802 /* BaseResponse.swift */; };
+		33A2A31E295F0B8A00837802 /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A31D295F0B8A00837802 /* BaseError.swift */; };
+		33A2A320295F0F7900837802 /* INetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A31F295F0F7900837802 /* INetworkManager.swift */; };
+		33A2A322295F102500837802 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A321295F102500837802 /* NetworkManager.swift */; };
+		33A2A325295F222200837802 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2A324295F222200837802 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33A2A2D8295ECA7E00837802 /* HttpDogsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpDogsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A2A2DB295ECA7E00837802 /* HttpDogsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpDogsSwiftUIApp.swift; sourceTree = "<group>"; };
-		33A2A2DD295ECA7E00837802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33A2A2DF295ECA7F00837802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33A2A2E2295ECA7F00837802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33A2A2F4295ED1F000837802 /* DogCardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCardWidget.swift; sourceTree = "<group>"; };
+		33A2A2F6295ED1FF00837802 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		33A2A2FD295ED23C00837802 /* DogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogService.swift; sourceTree = "<group>"; };
+		33A2A2FF295ED24800837802 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		33A2A301295ED25300837802 /* DogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsViewModel.swift; sourceTree = "<group>"; };
+		33A2A303295ED26800837802 /* DogsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsDetailView.swift; sourceTree = "<group>"; };
+		33A2A305295ED27000837802 /* DogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsView.swift; sourceTree = "<group>"; };
+		33A2A30D295F054F00837802 /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
+		33A2A30F295F059400837802 /* NetworkMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethod.swift; sourceTree = "<group>"; };
+		33A2A311295F062E00837802 /* ProjectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectError.swift; sourceTree = "<group>"; };
+		33A2A313295F077A00837802 /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		33A2A315295F07AB00837802 /* NetworkQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkQuery.swift; sourceTree = "<group>"; };
+		33A2A319295F0AEA00837802 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		33A2A31B295F0B0400837802 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		33A2A31D295F0B8A00837802 /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
+		33A2A31F295F0F7900837802 /* INetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INetworkManager.swift; sourceTree = "<group>"; };
+		33A2A321295F102500837802 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		33A2A324295F222200837802 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A2A30C295ED74800837802 /* Kingfisher in Frameworks */,
+				33A2A309295ED70300837802 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +89,10 @@
 		33A2A2DA295ECA7E00837802 /* HttpDogsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				33A2A2E9295ECABD00837802 /* Core */,
+				33A2A2EA295ECAC700837802 /* Product */,
+				33A2A2EB295ECACE00837802 /* Features */,
 				33A2A2DB295ECA7E00837802 /* HttpDogsSwiftUIApp.swift */,
-				33A2A2DD295ECA7E00837802 /* ContentView.swift */,
-				33A2A2DF295ECA7F00837802 /* Assets.xcassets */,
 				33A2A2E1295ECA7F00837802 /* Preview Content */,
 			);
 			path = HttpDogsSwiftUI;
@@ -65,6 +104,166 @@
 				33A2A2E2295ECA7F00837802 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33A2A2E9295ECABD00837802 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2EE295ED1AB00837802 /* Resources */,
+				33A2A2ED295ED1A200837802 /* Network */,
+				33A2A2EC295ED19A00837802 /* Widget */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		33A2A2EA295ECAC700837802 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2F1295ED1CD00837802 /* Enum */,
+				33A2A2F0295ED1C800837802 /* Widget */,
+				33A2A2EF295ED1C300837802 /* Service */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		33A2A2EB295ECACE00837802 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2F8295ED21300837802 /* DogList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		33A2A2EC295ED19A00837802 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A323295F220D00837802 /* Indicator */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		33A2A2ED295ED1A200837802 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A318295F0ADD00837802 /* Manager */,
+				33A2A317295F0AD600837802 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		33A2A2EE295ED1AB00837802 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2DF295ECA7F00837802 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33A2A2EF295ED1C300837802 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2F6295ED1FF00837802 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		33A2A2F0295ED1C800837802 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2F3295ED1DE00837802 /* Card */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		33A2A2F1295ED1CD00837802 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A30D295F054F00837802 /* NetworkPath.swift */,
+				33A2A30F295F059400837802 /* NetworkMethod.swift */,
+				33A2A311295F062E00837802 /* ProjectError.swift */,
+				33A2A313295F077A00837802 /* ErrorMessages.swift */,
+				33A2A315295F07AB00837802 /* NetworkQuery.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		33A2A2F3295ED1DE00837802 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2F4295ED1F000837802 /* DogCardWidget.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		33A2A2F8295ED21300837802 /* DogList */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2FC295ED22700837802 /* View */,
+				33A2A2FB295ED22200837802 /* ViewModel */,
+				33A2A2FA295ED21E00837802 /* Model */,
+				33A2A2F9295ED21700837802 /* Service */,
+			);
+			path = DogList;
+			sourceTree = "<group>";
+		};
+		33A2A2F9295ED21700837802 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2FD295ED23C00837802 /* DogService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		33A2A2FA295ED21E00837802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A2FF295ED24800837802 /* Dog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33A2A2FB295ED22200837802 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A301295ED25300837802 /* DogsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33A2A2FC295ED22700837802 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A303295ED26800837802 /* DogsDetailView.swift */,
+				33A2A305295ED27000837802 /* DogsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33A2A317295F0AD600837802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A319295F0AEA00837802 /* NetworkConfig.swift */,
+				33A2A31B295F0B0400837802 /* BaseResponse.swift */,
+				33A2A31D295F0B8A00837802 /* BaseError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33A2A318295F0ADD00837802 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A31F295F0F7900837802 /* INetworkManager.swift */,
+				33A2A321295F102500837802 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		33A2A323295F220D00837802 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				33A2A324295F222200837802 /* ActivityIndicator.swift */,
+			);
+			path = Indicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +282,10 @@
 			dependencies = (
 			);
 			name = HttpDogsSwiftUI;
+			packageProductDependencies = (
+				33A2A308295ED70300837802 /* Alamofire */,
+				33A2A30B295ED74800837802 /* Kingfisher */,
+			);
 			productName = HttpDogsSwiftUI;
 			productReference = 33A2A2D8295ECA7E00837802 /* HttpDogsSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +314,10 @@
 				Base,
 			);
 			mainGroup = 33A2A2CF295ECA7E00837802;
+			packageReferences = (
+				33A2A307295ED70300837802 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				33A2A30A295ED74800837802 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 33A2A2D9295ECA7E00837802 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +344,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A2A2DE295ECA7E00837802 /* ContentView.swift in Sources */,
+				33A2A322295F102500837802 /* NetworkManager.swift in Sources */,
+				33A2A31E295F0B8A00837802 /* BaseError.swift in Sources */,
+				33A2A310295F059400837802 /* NetworkMethod.swift in Sources */,
+				33A2A316295F07AB00837802 /* NetworkQuery.swift in Sources */,
+				33A2A312295F062E00837802 /* ProjectError.swift in Sources */,
+				33A2A30E295F055000837802 /* NetworkPath.swift in Sources */,
+				33A2A2FE295ED23C00837802 /* DogService.swift in Sources */,
+				33A2A304295ED26800837802 /* DogsDetailView.swift in Sources */,
+				33A2A31C295F0B0400837802 /* BaseResponse.swift in Sources */,
+				33A2A300295ED24800837802 /* Dog.swift in Sources */,
 				33A2A2DC295ECA7E00837802 /* HttpDogsSwiftUIApp.swift in Sources */,
+				33A2A314295F077A00837802 /* ErrorMessages.swift in Sources */,
+				33A2A302295ED25300837802 /* DogsViewModel.swift in Sources */,
+				33A2A31A295F0AEA00837802 /* NetworkConfig.swift in Sources */,
+				33A2A306295ED27000837802 /* DogsView.swift in Sources */,
+				33A2A325295F222200837802 /* ActivityIndicator.swift in Sources */,
+				33A2A2F7295ED1FF00837802 /* NetworkService.swift in Sources */,
+				33A2A320295F0F7900837802 /* INetworkManager.swift in Sources */,
+				33A2A2F5295ED1F000837802 /* DogCardWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +563,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33A2A307295ED70300837802 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		33A2A30A295ED74800837802 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33A2A308295ED70300837802 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A2A307295ED70300837802 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		33A2A30B295ED74800837802 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A2A30A295ED74800837802 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 33A2A2D0295ECA7E00837802 /* Project object */;
 }

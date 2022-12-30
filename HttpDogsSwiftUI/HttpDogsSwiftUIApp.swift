@@ -11,7 +11,7 @@ import SwiftUI
 struct HttpDogsSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DogsView(viewModel: DogsViewModel())
         }
     }
 }
